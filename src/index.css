@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    font-family: "ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    background: #141e30;
+    background: linear-gradient(90deg, #243b55, #141e30)
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace
+}
+
+input {
+    font-size: .9rem;
+    width: 40%;
+    border: none;
+    border-radius: .5em;
+    padding: .3em 0 .3em 1em;
+    outline: none;
+    box-shadow: 5px 5px 1em #000
+}
+
+.card-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgba(0, 0, 0, .2)
+}
+
+.card {
+    align-content: center;
+    border: 1px solid #575454;
+    border-radius: 1.5em;
+    overflow: hidden;
+    margin: 1em;
+    width: 36%;
+    min-height: 140px;
+    background: #000;
+    box-shadow: 5px 5px 1em #000
+}
+
+.card p {
+    text-align: center;
+    font-feature-settings: "c2sc";
+    font-variant: small-caps;
+    text-transform: capitalize;
+    color: #ee6432
+}
+
+.card img {
+    flex: 9 1;
+    width: 100%;
+    height: 70%;
+    object-fit: cover
+}
+
+hr {
+    width: 85%;
+    margin-top: 2em;
+    opacity: .1
+}
+
+h1 {
+    font-family: "Bangers", cursive, Arial, Helvetica, sans-serif;
+    font-feature-settings: "c2sc";
+    font-variant: small-caps;
+    font-size: 6em;
+    letter-spacing: .03em
+}
+
+h1,
+h3 {
+    text-shadow: 5px 5px .1em #000
+}
+
+h3 {
+    font-size: .8em;
+    font-feature-settings: "c2sc";
+    font-variant: small-caps;
+    text-transform: capitalize
+}
+
+p {
+    font-size: .9em;
+    font-style: italic;
+    margin: 5px 3px
+}
+
+ol {
+    padding: 0
+}
+
+
+/*# sourceMappingURL=main.619fb600.chunk.css.map */
